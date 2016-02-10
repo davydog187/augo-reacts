@@ -7,14 +7,20 @@ export default class HomeView {
     }
 
     render() {
+        const augoPhotoBooth = "http://i.imgur.com/Nt1OhoQ.jpg";
         return `
             <!DOCTYPE html>
             <html>
             <head>
+                <meta property="og:url" content="http://www.augoreacts.nyc" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Augo Reacts" />
+                <meta property="og:description" content="When Augo Reacts to everyday life" />
+                <meta property="og:image" content="${ augoPhotoBooth }" />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
                 <style type="text/css">
                     html {
-                        background-image: url(http://i.imgur.com/Nt1OhoQ.jpg);
+                        background-image: url(${ augoPhotoBooth });
                     }
                     h1 {
                         margin: 0;
