@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/davydog187/augo-reacts/issues"
   },
+  "engines": {
+    "node": "5.6.0"
+  },
   "homepage": "https://github.com/davydog187/augo-reacts#readme",
   "dependencies": {
     "babel-core": "^6.5.1",
