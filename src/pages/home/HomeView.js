@@ -12,6 +12,7 @@ export default class HomeView {
             <!DOCTYPE html>
             <html>
             <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
                 <meta property="og:url" content="http://www.augoreacts.nyc" />
                 <meta property="og:type" content="article" />
                 <meta property="og:title" content="Augo Reacts" />
