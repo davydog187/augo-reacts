@@ -24,8 +24,9 @@ export default class HomeView {
                         background-image: url(${ augoPhotoBooth });
                     }
                     h1 {
+                        text-align: center;
                         margin: 0;
-                        padding: 0;
+                        padding: 10px;
                     }
                     .augo-container {
                         color: #FFFFFF;
